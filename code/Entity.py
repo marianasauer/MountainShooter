@@ -18,5 +18,5 @@ class Entity(ABC):
         self.score = ENTITY_SCORE[self.name]
         self.last_dmg = 'None'
 
-    def move(self, ):
+    def move(self):
         pass
